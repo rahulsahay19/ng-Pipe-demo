@@ -3,11 +3,13 @@ import { NgModule } from '@angular/core';
 
 
 import { AppComponent } from './app.component';
+import { ShortName } from './pipes/shortName.pipe';
 
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    ShortName
   ],
   imports: [
     BrowserModule
